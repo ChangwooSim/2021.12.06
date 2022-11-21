@@ -1,6 +1,11 @@
 # 2021.12.06 Classification model
 Classification model 
 
+# ROC 분석을 plot으로 만들고 최적의 값을 찾아 시각화 하였다.
+# 로지스틱 회귀분석을 실행하여 결과를 확인한다.
+# 분류모델인 svm과 knn을 만들어 분류모델의 정확도를 계산하였다.
+# 해결해야 하는 문제에 따라 다양한 분류모델을 사용할 수 있음을 알게 되었다.
+
 # 필요한 패키지 불러오기
 install.packages("pROC")
 install.packages("caret")
